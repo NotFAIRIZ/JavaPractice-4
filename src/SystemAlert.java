@@ -34,4 +34,15 @@ public class SystemAlert {
     public String getProcess() {
         return process;
     }
+
+    @Override
+    public String toString() {
+        return "SystemAlert{" +
+                "severity=" + severity +
+                ", message='" + message + '\'' +
+                ", executionCode=" + executionCode +
+                ", timestamp=" + timestamp +
+                ", process='" + process + '\'' +
+                '}';
+    }
 }
